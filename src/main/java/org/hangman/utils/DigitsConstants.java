@@ -1,6 +1,7 @@
 package org.hangman.utils;
 
 public enum DigitsConstants {
+
     COUNT_MISTAKES (6),
     EASY_LEVEL_MIN_WORD_LENGTH(0),
     EASY_LEVEL_MAX_WORD_LENGTH(5),

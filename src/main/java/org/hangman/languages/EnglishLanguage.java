@@ -69,11 +69,6 @@ public class EnglishLanguage extends Language {
     }
 
     @Override
-    public String getDictionaryNotFoundMessage() {
-        return "Dictionary not found";
-    }
-
-    @Override
     public String getWordMistakesMessage() {
         return "Mistakes(";
     }

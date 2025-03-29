@@ -40,8 +40,6 @@ public abstract class Language {
 
     public abstract String getLanguageName();
 
-    public abstract String getDictionaryNotFoundMessage();
-
     public abstract String getWordMessage();
 
     public abstract String getWordMistakesMessage();

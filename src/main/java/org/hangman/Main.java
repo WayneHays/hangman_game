@@ -13,6 +13,6 @@ public class Main {
 
         GameManager gameManager = new GameManager(scanner, dictionary, painter, inputValidator, difficultySelector);
         dictionary.loadWordsFromFiles();
-        gameManager.startGameOrNot();
+        gameManager.startGameLoop();
     }
 }

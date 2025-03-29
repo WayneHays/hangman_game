@@ -23,7 +23,7 @@ public class GameManager {
         this.difficultySelector = difficultySelector;
     }
 
-    public void startGameOrNot() {
+    public void startGameLoop() {
         initializeLanguage();
         while (true) {
             String input = scanner.nextLine();
